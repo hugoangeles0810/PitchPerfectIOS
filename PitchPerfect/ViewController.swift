@@ -11,10 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var lblRecordingStatus: UILabel!
+    @IBOutlet weak var btRecord: UIButton!
+    @IBOutlet weak var btStop: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {

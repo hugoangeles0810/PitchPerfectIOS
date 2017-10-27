@@ -56,6 +56,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="btRecord" destination="4l3-NE-HvC" id="m6g-fs-Iwg"/>
+                        <outlet property="btStop" destination="uJ4-29-EPx" id="2fc-Fw-n20"/>
                         <outlet property="lblRecordingStatus" destination="51k-4x-Ikb" id="0x4-Ex-Kr3"/>
                     </connections>
                 </viewController>
